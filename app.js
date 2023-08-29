@@ -21,7 +21,7 @@ app.get('/app2', (req, res) => {
 });
 
 app.get('/app3',(req,res)=>{
-  res.sed('helllo world!')
+  res.send('helllo world!')
 });
 
 app.get('/users', (req, res, next) => {
