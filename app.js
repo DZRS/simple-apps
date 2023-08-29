@@ -22,7 +22,7 @@ app.get('/app2', (req, res) => {
 
 app.get('/app3',(req,res)=>{
   res.sed('helllo world!')
-})
+});
 
 app.get('/users', (req, res, next) => {
   const sql = "SELECT * FROM tb_data ORDER BY id desc"
