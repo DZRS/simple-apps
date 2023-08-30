@@ -1,5 +1,5 @@
-FROM node:18.17.1-slim
+FROM node:16.16.1-slim
 WORKDIR /app
-ADD . .
+COPY /app/package.json /app/
 RUN npm install
 CMD npm start
